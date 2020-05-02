@@ -245,50 +245,53 @@ Brace yourselves for an emergency landing...
 
 ...could have been worse. Here's a parallel universe we avoided:
 
-###Scenario 0: Do Absolutely Nothing
+###Scénario 0 : Ne faire absolument rien
 
-Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected – or, 0.6% of the population.
+Environ 1 personne sur 20 avec le COVID-19 a besoin d'aller en Unité de Soins Intesifs (USI).[^icu_covid] Dans un pays riche, comme les Etats-Unis, il y a un lit en Unité de Soins Intensifs pour 3400 personnes.[^icu_us] Ainsi, les Etats-Unis peuvent se permettre d'avoir 20 personnes sur 3400 infectées simultanément - ce qui équivaut à 0,6% de la population.
 
-[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Between 4.9% to 11.5% of *all* COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations.
+[^icu_covid]: ["Pourcentage de cas de COVID-19 aux Etats-Unis du 12 février 2020 au 16 mars 2020 qui ont requis une admission en Unité de Soins Intensifs, par tranche d'âge"(https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont nécessité une admission en USI. Si on est optimiste, et qu'on considère la plus basse estimation, cela fait bien 5% ou 1 personne sur 20. Notez que cette valeur est spécifique à la répartition des âges aux Etats-Unis et qu'elle sera plus haute dans des pays avec des populations plus âgées et plus faible dans des populations plus jeunes.
 
-[^icu_us]: “Number of ICU beds = 96,596”. From [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) USA Population was 328,200,000 in 2019. 96,596 out of 328,200,000 = roughly 1 in 3400. 
-
-Even if we *more than tripled* that capacity to 2%, here's what would've happened *if we did absolutely nothing:*
+[^icu_us]: “Nombre de lits en USI = 96,596”. D'après [la Société de Médecine de Soins Intensifs](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) la population américaine était de 328 200 000 en 2019. 96,596 rapporté à  328,200,000 = roughly 1 in 3400. 
+Même si on faisait *plus que tripler* cette capacité jusqu'à atteindre 2%, voici ce qui arriverait *si on ne faisait absolument rien*:
 
 <div class="sim">
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
 </div>
 
-Not good.
+Pas bien.
 
-That's what [the March 16 Imperial College report](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) found: do nothing, and we run out of ICUs, with more than 80% of the population getting infected. 
-(remember: total cases *overshoots* herd immunity)
+That's what [le rapport du 16 mars de l'Imperial College](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) a trouvé : si nous ne faisons rien, nous serons à court de places dans les USI, avec plus de 80% de la population qui sera infectée.
+(Rappelez-vous : le nombre total de cas *dépasse largement* le seuil d'immunité de groupe)
 
-Even if only 0.5% of infected die – a generous assumption when there's no more ICUs – in a large country like the US, with 300 million people, 0.5% of 80% of 300 million = still 1.2 million dead... *IF we did nothing.*
+
+Même si seulement 0,5% des infectés meurent - une hypothèse optimiste quand il n'y a plus de places en USI - dans un grand pays comme les Etats-Unis avec 300 000 000 de personnes, 0,5% de 80% de 300 000 000 = toujours 1,2 millions de morts... *SI on ne fait rien.*
 
 (Lots of news & social media reported "80% will be infected" *without* "IF WE DO NOTHING". Fear was channelled into clicks, not understanding. *Sigh.*)
+(Beaucoup de médias d'information et des réseaux sociaux disaient que "80% seraient infectés" *sans* "SI NOUS NE FAISONS RIEN". De la peur était transmise par les clics, pas la compréhension. *Soupir*)
 
-###Scenario 1: Flatten The Curve / Herd Immunity
+###Scénario 1: Applatir la courbe / Immunité de groupe
 
-The "Flatten The Curve" plan was touted by every public health organization, while the United Kingdom's original "herd immunity" plan was universally booed. They were *the same plan.* The UK just communicated theirs poorly.[^yong]
+L'idée d'"Applatir La Courbe" a été cité par tous les agences publiques de santé, alors que le plan initial au Royaume Uni d'"immunité de groupe" était universellement décrié. C'étaient en réalité *la même idée*, Le Royaume Uni l'a juste présenté d'une mauvaise manière.[^yong]
 
-[^yong]: “He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.”
+[^yong] : “Il dit que le but réel est le même que dans les autres pays : applatir la courbe en étalant dans le temps les cas d'infections. En conséquence, la nation peut arriver à l'immunité de groupe ; c'est un effet secondaire, pas un but. [...] Le réel plan d'action du gouvernement, disponible en ligne, ne fait pas mention d'une immunité de groupe du tout.”
     
-    From a [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)
+    D'après [l'article de The Atlantic par Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)
 
-Both plans, though, had a literally fatal flaw.
+Les deux plans, cependant, avaient un défaut littéralement fatal.
 
-First, let's look at the two main ways to "flatten the curve": handwashing & physical distancing.
+Premièrement, observons les deux moyens principaux pour "applatir la courbe" : le lavage de mains et la distanciation sociale.
 
 Increased handwashing cuts flus & colds in high-income countries by ~25%[^handwashing], while the city-wide lockdown in London cut close contacts by ~70%[^london]. So, let's assume handwashing can reduce R by *up to* 25%, and distancing can reduce R by *up to* 70%:
+L'amélioration du lavage de mains réduit la propagation des grippes et rhumes de ~25% dans les pays riches[^handwashing], et le confinement général à Londres a réduit les contacts proches de ~70%[^london]. Ainsi, supposons que le lavage de mains peut réduire R de 25% et que la distanciation sociale *jusqu'à* 70% :
 
-[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)].” We rounded up the pooled value to 25% in these simulations for simplicity. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note: as this meta-analysis points out, the quality of studies for handwashing (at least in high-income countries) are awful.
 
-[^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”. We rounded it down to 70% in these simulations for simplicity. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
+[^handwashing]: “Les huit études éligibles ont rapporté que le lavage de mains réduisait les risques d'infections respiratoires, avec des réductions du risque allant de 6% à 44% [Valeur médiane 24% (95% IC 6-40%)].” Nous avons arrondi la valeur médiane à 25% dans ces simulations pour simplifier. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note : comme le souligne cette méta-analyse, la qualité des études par rapport au lavage de mains (au moins dans les pays riches) est médiocre.
 
-**Play with this calculator to see how % of non-<icon s></icon>, handwashing, and distancing reduce R:** (this calculator visualizes their *relative* effects, which is why increasing one *looks* like it decreases the effect of the others.[^log_caveat])
+[^london]: “Nous avons trouvé une réduction de 73% dans le nombre moyen de contacts observés par participant. Cela serait suffisant pour réduire le R0 d'une valeur de 2,6 avant le confinement à 0.62 (0,37 - 0,89) pendant le confinement”. Nous l'avons arrondi à 70% pour ces simulations pour simplifier. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
 
-[^log_caveat]: This distortion would go away if we plotted R on a logarithmic scale... but then we'd have to explain *logarithmic scales.*
+**Jouez avec ce simulateur pour voir comment le % de non-<icon s></icon>, le lavage de mains, and la distanciation sociale fait diminuer R:** (ce simulateur visualise les effets *relatifs*, c'est pourquoi augmenter l'un semble faire diminuer l'effet des autres.[^log_caveat])
+
+[^log_caveat]: Cette distorsion n'existerait pas si on utilisait une échelle logarithmique pour tracer R... mais il faudrait alors expliquer les *échelles logarithmiques.*
 
 <div class="sim">
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
