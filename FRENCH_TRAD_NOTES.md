@@ -24,7 +24,7 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | Intro |L25-L41 | [X] @cyrilou242  |   | |
 | LastMonths: Curves | L43-L153 | **WIP** @cyrilou242   |   | |
 | LastMonths: R | L155-L237|  |   | |
-| NextMonths: Scenario 0-3  | L239-L359 |  |   | |
+| NextMonths: Scenario 0-3  | L239-L359 | **WIP** @maximebedoin |   | |
 | NextMonths: Scenario 4  | L361-471 |  |   | |
 | NextMonths: Scenario 4+  | L473-573 |  |   | |
 | NextYears  | L575-682 | **WIP** @e-guenat |   | |
