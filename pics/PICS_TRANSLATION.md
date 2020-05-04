@@ -51,7 +51,13 @@ But they are effective at preventing you from getting *others* sick!
 
 #### Traduction (français) 
 
+Les gouttelettes rapetissent pendant leur trajet dans l'air, à cause de l'évaporation.
 
+Les masques sont meilleurs pour bloquer de grosses gouttelettes, pires pour les petites.
+
+C'est pourquoi les masques ne sont efficaces pour *te* protéger d'être infecté ...
+
+Mais ils sont efficaces pour éviter d'infecter *les autres* !
 
 ### mitigation_vs_suppression.png
 #### Original (anglais) 
@@ -62,7 +68,9 @@ Suppression
 
 #### Traduction (français) 
 
+Atténuation
 
+Endiguement
 
 ### plan.png
 #### Original (anglais) 
@@ -81,7 +89,17 @@ If immunity doesn't last, do regular vaccinations. If no vaccine, change behavio
 
 #### Traduction (français) 
 
+Le but : R < 1.
+En commençant avec un
 
+CONFINEMENT
+Afin d'avoir un nouveau départ et pour faire la transition vers ...
+
+LES TESTS, LE TRAÇAGE, L'ISOLATION
+Si ce n'est pas suffisant pour avoir R<1, il faut ajouter les **masques pour tous** et/ou un confinement disjoncteur, jusqu'à pouvoir ...
+
+VACCINER
+Si l'immunité n'est pas durable, faire des vaccinations régulières. S'il n'y a pas de vaccin, changer les normes comportementales jusqu'à ce que nous puissions le guérir ou le soigner !
 
 ### r2.png
 #### Original (anglais) 
@@ -94,7 +112,11 @@ contained!
 
 #### Traduction (français) 
 
+épidémie
 
+endémique
+
+contenue !
 
 ### r3.png
 #### Original (anglais) 
@@ -124,7 +146,15 @@ of transmission to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
+Si R_0 est
 
+(1.0 ... 4.0)
+
+Alors il faut éviter plus de
+
+(0%, ..., 75%)
+
+des transmissions pour avoir R<1 et arrêter la propagation !
 
 ### seir.png
 #### Original (anglais) 
@@ -143,7 +173,17 @@ recovery
 
 #### Traduction (français) 
 
+Plus lent quand il y a moins de
+Plus rapide quand il y a plus de
 
+Sain
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
 
 ### seirs.png
 #### Original (anglais) 
@@ -181,7 +221,15 @@ recovery
 
 #### Traduction (français) 
 
+Plus lent quand il y a moins de
+Plus rapide quand il y a plus de
 
+Sain
+Infectieux
+Guéri
+
+transmission
+guérison
 
 ### spread.png
 #### Original (anglais) 
@@ -211,7 +259,7 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
-
+Quand la population 
 
 ### timeline1.png
 #### Original (anglais) 
